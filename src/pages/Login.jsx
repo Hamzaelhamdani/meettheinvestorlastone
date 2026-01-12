@@ -54,7 +54,7 @@ const Login = () => {
             <div className="w-full max-w-md relative z-10">
                 <div className="flex flex-col items-center mb-8">
                     <div className="w-20 h-20 rounded-2xl flex items-center justify-center mb-4 overflow-hidden">
-                        <img src="/src/assets/Logo Orange Kayna.png" alt="Logo" className="w-full h-full object-contain" />
+                        <img src="/src/assets/logo.png" alt="Logo" className="w-full h-full object-contain" />
                     </div>
                     <h1 className="text-3xl font-bold text-white tracking-tight">MeetTheInvestor</h1>
                     <p className="text-slate-400 mt-2">Enter your credentials to access the platform</p>
@@ -109,6 +109,7 @@ const Login = () => {
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     className="pl-11"
+                                    autoComplete="email"
                                     required
                                 />
                             </div>
@@ -122,6 +123,7 @@ const Login = () => {
                                     value={password}
                                     onChange={(e) => setPassword(e.target.value)}
                                     className="pl-11"
+                                    autoComplete="current-password"
                                     required
                                 />
                             </div>
