@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    sourcemap: 'inline-cheap-module-source-map'
+    sourcemap: false
   },
   server: {
     hmr: {
