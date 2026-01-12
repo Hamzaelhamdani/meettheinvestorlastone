@@ -69,10 +69,10 @@ const Sidebar = () => {
         <div className="w-64 h-screen glass-dark flex flex-col p-4 fixed left-0 top-0 z-50">
             <div className="flex items-center gap-3 px-2 mb-10">
                 <div className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden">
-                    <img src="/src/assets/Logo Orange Kayna.png" alt="Logo" className="w-full h-full object-contain" />
+                    <img src="/src/assets/logo.png" alt="Logo" className="w-full h-full object-contain" />
                 </div>
                 <h1 className="text-xl font-bold bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
-                    MeetTheInv
+                    MeetTheInvestor
                 </h1>
             </div>
 
