@@ -16,6 +16,7 @@
     "date-fns": "^4.1.0",
     "framer-motion": "^12.26.1",
     "lucide-react": "^0.562.0",
+    "playwright": "^1.57.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.12.0",
@@ -37,5 +38,18 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
-  }
+  },
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamzaelhamdani/meettheinvestorlastone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamzaelhamdani/meettheinvestorlastone/issues"
+  },
+  "homepage": "https://github.com/Hamzaelhamdani/meettheinvestorlastone#readme",
+  "description": ""
 }

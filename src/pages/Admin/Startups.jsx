@@ -28,6 +28,14 @@ const SECTORS = [
     { label: 'Biotech', value: 'Biotech' },
     { label: 'GovTech', value: 'GovTech' },
     { label: 'MarTech / AdTech', value: 'MarTech' },
+    { label: 'Sportech', value: 'Sportech' },
+    { label: 'Tourism Tech', value: 'Tourism Tech' },
+    { label: 'Hospitality Tech', value: 'Hospitality Tech' },
+    { label: 'Travel Tech', value: 'Travel Tech' },
+    { label: 'Green Tech', value: 'Green Tech' },
+    { label: 'Digital Services', value: 'Digital Services' },
+    { label: 'Beauty Tech', value: 'Beauty Tech' },
+    { label: 'Legal Tech', value: 'Legal Tech' },
     { label: 'Other', value: 'Other' },
 ];
 
